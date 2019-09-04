@@ -1,8 +1,8 @@
 
-# SearchApp
+# SearchGthubApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
-and is used to frind the repository of other Developer
+and is used to find the repository of other Developer.The application for searching github users and repositories and display all about  the users.i use  components, directives,  pipes, routing modules and classes to make this app functioning.
 
 ## Author information
  Mediatrice KAMPIRE
