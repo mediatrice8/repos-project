@@ -1,5 +1,12 @@
 .para{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black
     
+}
+.line{
+    height: 1%;
+}
+.col-md-12{
+    text-align: center;
 }
