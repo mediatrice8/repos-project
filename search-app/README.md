@@ -37,7 +37,10 @@ The BDD of this app is you should have github account so that you can access the
 
 ### Technologies used
  The project is created using following language
- Angular js
- HTML
- CSS
+. Angular js
+. HTML
+.  CSS
+ ## License
+ © 2019 RWANDA®.All reserved and licence is free to everyone
+
  
