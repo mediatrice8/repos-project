@@ -40,6 +40,8 @@ The BDD of this app is you should have github account so that you can access the
 . Angular js
 . HTML
 .  CSS
+## Contact information
+Phone:+250785610704 Email:kampiremediatrice@gmail.com Address: UR_CHMS Support:Moringa School
  ## License
  © 2019 RWANDA®.All reserved and licence is free to everyone
 
