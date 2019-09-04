@@ -1,1 +1,34 @@
-<p>repose works!</p>
+<div class="container">
+    <!-- <ng-progress></ng-progress> -->
+    <div class="row ">
+    <div class="col-md-8 text-center">
+      <app-search-form (getName)='searchRepos($event)'></app-search-form>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-10">
+      <div >
+        <div class="table">
+          <table class="table">
+            <tbody>
+             <tr *ngFor=" let repository of gitRepoRequest.searchRepo" >
+              <td>
+                <h4>
+                  <a style="text-align: center" href="{{repository.html_url}} " >{{RepoClass.name}}</a>
+                </h4>
+                <p > Repository Owner:
+                  <a href="{{repository.owner.html_url}}">{{RepoClass.owner.login}}</a>
+                </p>
+                <p>Date Created : {{RepoClass.created_at|date}}</p>
+                <p>Description : {{RepoClass.description}}</p>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+          <hr>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

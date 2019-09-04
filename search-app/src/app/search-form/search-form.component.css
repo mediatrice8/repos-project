@@ -13,18 +13,16 @@ input[type=submit] {
    background-color: #056b5b;
    color: white;
    text-align: center;
-   /* width: 50%; */
 }
 
 
 button {
-   background-color: #056b5b;
+   background-color: #156b5c;
    color: white;
    padding: 14px 20px;
    margin: 8px 0;
    border: none;
    cursor: pointer;
-   /* width: 100%; */
    opacity: 0.9;
 }
 
@@ -34,5 +32,7 @@ form {
    background-color: #f1f1f1;
    padding: 20px;
    width: 100vh;
-    /*height: 100%; */
+    margin-top: 4%;
+    margin-left: 4%;
+    ;
 }
